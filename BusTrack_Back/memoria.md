@@ -2,7 +2,7 @@
 
 **Versión:** 1.0.0  
 **Estado:** Activo  
-**Última actualización:** 2026-10-28
+**Última actualización:** 2026-10-29
 
 > Este documento registra el contexto, las decisiones técnicas y su estado dentro del proyecto BusTrack Backend. Es la fuente de verdad sobre qué está confirmado, qué está pendiente y qué está fuera del alcance actual.
 
@@ -173,6 +173,7 @@ Las siguientes funcionalidades están **fuera del alcance de la fase actual** y 
 | HIST-008 | Metodología SDD | **Confirmado** | Metodología establecida por el proyecto académico | Completar documentación antes de iniciar implementación |
 | HIST-009 | Estructura de capas API/Application/Domain/Infrastructure | **Propuesto** | Estructura Clean Architecture/Onion adaptada; pendiente de validación | Aprobar en DEC-005 |
 | HIST-010 | Alojamiento en Azure | **Confirmado** | Plataforma en la nube seleccionada | Confirmar servicio específico de alojamiento (DEC-007) |
+| HIST-011 | Organización documental por etapas en `stages/` | **Confirmado** | Solicitud del responsable del proyecto (2026-10-29); cada etapa incluye `plan.md`, `charts.md` y `task.md`; los documentos raíz se conservan como índice | Mantener la coherencia entre `stages/` y los documentos raíz |
 
 ---
 

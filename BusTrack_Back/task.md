@@ -1,11 +1,32 @@
 # task.md — Tareas Trazables del Backend de BusTrack
 
-**Versión:** 1.0.0  
+**Versión:** 1.1.0  
 **Estado:** Activo  
-**Última actualización:** 2026-10-28  
+**Última actualización:** 2026-10-29  
 **Referencia normativa:** [`constitution.md`](./constitution.md) | [`plan.md`](./plan.md)
 
 > **Regla:** Ninguna tarea puede marcarse como `COMPLETADA` sin evidencia verificable. Las tareas de implementación y despliegue deben permanecer en `PENDIENTE` o `BLOQUEADA` hasta que la fase correspondiente sea aprobada.
+
+---
+
+## Documentación por etapas
+
+Este documento se conserva como índice general de tareas y fuente de los identificadores estables `TAREA-###`. El desglose por etapa vive en `stages/`, donde cada etapa incluye su propio `plan.md`, `charts.md` y `task.md`.
+
+| Etapa | Carpeta | Tareas |
+|-------|---------|--------|
+| 01 | [`stages/01-validacion-documentacion-sdd/`](./stages/01-validacion-documentacion-sdd/task.md) | TAREA-001 a TAREA-003 |
+| 02 | [`stages/02-diseno-estructura-solucion-net/`](./stages/02-diseno-estructura-solucion-net/task.md) | TAREA-004 a TAREA-005 |
+| 03 | [`stages/03-seleccion-proveedor-nosql/`](./stages/03-seleccion-proveedor-nosql/task.md) | TAREA-006 a TAREA-007 |
+| 04 | [`stages/04-diseno-estrategia-persistencia/`](./stages/04-diseno-estrategia-persistencia/task.md) | TAREA-008 a TAREA-009 |
+| 05 | [`stages/05-preparacion-base-api/`](./stages/05-preparacion-base-api/task.md) | TAREA-010 a TAREA-014 |
+| 06 | [`stages/06-configuracion-y-seguridad/`](./stages/06-configuracion-y-seguridad/task.md) | TAREA-015 a TAREA-017 |
+| 07 | [`stages/07-estrategia-de-pruebas/`](./stages/07-estrategia-de-pruebas/task.md) | TAREA-018 |
+| 08 | [`stages/08-integracion-continua/`](./stages/08-integracion-continua/task.md) | TAREA-019 |
+| 09 | [`stages/09-despliegue-en-azure/`](./stages/09-despliegue-en-azure/task.md) | TAREA-020 |
+| 10 | [`stages/10-especificaciones-funcionales/`](./stages/10-especificaciones-funcionales/task.md) | Por definir (TAREA-021+) |
+
+> Índice general: [`stages/README.md`](./stages/README.md). Los documentos de `stages/` desglosan este listado; no sustituyen la trazabilidad raíz.
 
 ---
 

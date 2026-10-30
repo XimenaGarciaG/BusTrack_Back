@@ -1,11 +1,32 @@
 # plan.md — Plan de Implementación del Backend de BusTrack
 
-**Versión:** 1.0.0  
+**Versión:** 1.1.0  
 **Estado:** Borrador — Pendiente de revisión y aprobación  
-**Última actualización:** 2026-10-28  
+**Última actualización:** 2026-10-29  
 **Referencia normativa:** [`constitution.md`](./constitution.md) | [`spec.md`](./spec.md)
 
 > **Importante:** Este documento describe las fases de implementación previstas. Ninguna actividad descrita aquí ha sido ejecutada. Este plan no autoriza el inicio de ninguna fase. Cada fase debe ser aprobada antes de comenzarse.
+
+---
+
+## Documentación por etapas
+
+Este documento se conserva como índice general del plan. El desglose detallado de cada fase vive en `stages/`, donde cada etapa incluye su propio `plan.md`, `charts.md` y `task.md`.
+
+| Etapa | Carpeta | Plan | Diagramas | Tareas |
+|-------|---------|------|-----------|--------|
+| 01 | `stages/01-validacion-documentacion-sdd/` | [plan](./stages/01-validacion-documentacion-sdd/plan.md) | [charts](./stages/01-validacion-documentacion-sdd/charts.md) | [task](./stages/01-validacion-documentacion-sdd/task.md) |
+| 02 | `stages/02-diseno-estructura-solucion-net/` | [plan](./stages/02-diseno-estructura-solucion-net/plan.md) | [charts](./stages/02-diseno-estructura-solucion-net/charts.md) | [task](./stages/02-diseno-estructura-solucion-net/task.md) |
+| 03 | `stages/03-seleccion-proveedor-nosql/` | [plan](./stages/03-seleccion-proveedor-nosql/plan.md) | [charts](./stages/03-seleccion-proveedor-nosql/charts.md) | [task](./stages/03-seleccion-proveedor-nosql/task.md) |
+| 04 | `stages/04-diseno-estrategia-persistencia/` | [plan](./stages/04-diseno-estrategia-persistencia/plan.md) | [charts](./stages/04-diseno-estrategia-persistencia/charts.md) | [task](./stages/04-diseno-estrategia-persistencia/task.md) |
+| 05 | `stages/05-preparacion-base-api/` | [plan](./stages/05-preparacion-base-api/plan.md) | [charts](./stages/05-preparacion-base-api/charts.md) | [task](./stages/05-preparacion-base-api/task.md) |
+| 06 | `stages/06-configuracion-y-seguridad/` | [plan](./stages/06-configuracion-y-seguridad/plan.md) | [charts](./stages/06-configuracion-y-seguridad/charts.md) | [task](./stages/06-configuracion-y-seguridad/task.md) |
+| 07 | `stages/07-estrategia-de-pruebas/` | [plan](./stages/07-estrategia-de-pruebas/plan.md) | [charts](./stages/07-estrategia-de-pruebas/charts.md) | [task](./stages/07-estrategia-de-pruebas/task.md) |
+| 08 | `stages/08-integracion-continua/` | [plan](./stages/08-integracion-continua/plan.md) | [charts](./stages/08-integracion-continua/charts.md) | [task](./stages/08-integracion-continua/task.md) |
+| 09 | `stages/09-despliegue-en-azure/` | [plan](./stages/09-despliegue-en-azure/plan.md) | [charts](./stages/09-despliegue-en-azure/charts.md) | [task](./stages/09-despliegue-en-azure/task.md) |
+| 10 | `stages/10-especificaciones-funcionales/` | [plan](./stages/10-especificaciones-funcionales/plan.md) | [charts](./stages/10-especificaciones-funcionales/charts.md) | [task](./stages/10-especificaciones-funcionales/task.md) |
+
+> Índice general: [`stages/README.md`](./stages/README.md). Los documentos de `stages/` desglosan este plan; no lo sustituyen.
 
 ---
 
